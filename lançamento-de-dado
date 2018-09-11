@@ -1,0 +1,12 @@
+import random
+
+resultados = []
+i = 0
+q = int(input("Este é um simulador de dados. Quantos resultados você gostaria de obter?"))
+
+while q>0:
+    i = random.randint(1,6)
+    resultados.append(i)
+    q = q-1
+
+print(resultados)
